@@ -1,0 +1,370 @@
+@import url(' https://fonts.cdnfonts.com/css/harry-potter ');
+
+body {
+  font-family: 'Harry Potter', sans-serif;
+  background-color: #2e2e2e; 
+  color: #f5f5f5; 
+  line-height: 1.6;
+}
+
+.header {
+  background-image: url(../img/castelo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 350px 10px;
+  text-align: center;
+  border-bottom: 3px solid #d4af37; 
+}
+
+.header__title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #d4af37;
+  text-shadow: 2px 2px 5px black;
+}
+.header__subtitle {
+  font-size: 1.2rem;
+  color:rgb(225, 253, 8);
+  margin-top: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+.header__nav {
+  margin-top: 20px;
+}
+.header__menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu__item {
+  margin: 0 20px;
+}
+.menu__link {
+  color: #ffffff;
+  text-shadow: 1px 1px 10px black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+.menu__link:hover {
+  color: #fff; 
+  text-shadow: 1px 1px 10px #f6cd46;
+  border-bottom: solid 3px #d4af37;
+  transition:  0.14s;
+}
+.section--intro {
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  opacity: 0.9;
+}
+.intro__title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #d4af37; 
+  text-shadow: 2px 2px 5px black;
+}
+
+.header__title:hover , .intro__title:hover{
+  color: #fff; 
+  text-shadow: 1px 1px 10px #f6cd46;
+  transition:  0.14s;
+}
+
+.intro__text {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.intro__button {
+  background-color: #d4af37; 
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px; 
+}
+
+.intro__button:hover {
+  background-color: #b5942e; 
+}
+
+.section--about {
+  background-color: #3c3c3c; 
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section__text{
+  margin: 30px;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4af37; 
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 30px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.about__item {
+  justify-content: center;
+  background-color: #444; 
+  padding: 20px;
+  border: 2px solid #d4af37; 
+  border-radius: 5px;
+}
+
+.about__subtitle {
+  font-size: 1.5rem;
+  color: #d4af37; 
+  margin-bottom: 10px;
+}
+
+.about__description {
+  font-size: 1rem;
+  color: #ccc; 
+}
+
+.section--gallery {
+  padding: 60px 20px;
+  background-color: #222; 
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gallery__item {
+  background-color: #444; 
+  border: 2px solid #d4af37; 
+  border-radius: 5px;
+  padding: 70px 20px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery__item:hover{
+  transform: scale(1.05); 
+  border: 2px solid #f6cd46;
+  box-shadow: 1px 1px 10px #f6cd46;
+}
+
+.gallery__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gallery__caption {
+  color: #d4af37; 
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn-more{
+  font-family: 'Harry Potter', sans-serif;
+  background-color: #d4af37;
+  border: none;
+  border-radius: 5px;
+  max-width: 50%;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.btn-more:hover {
+  background-color: #b5942e; 
+}
+
+.section--services {
+  background-color: #3c3c3c; 
+  padding: 60px 20px;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.service__item {
+  background-color: #444; 
+  padding: 20px;
+  border: 2px solid #d4af37; 
+  text-align: center;
+}
+
+.service__title {
+  font-size: 1.5rem;
+  color: #d4af37; 
+  margin-bottom: 10px;
+}
+
+.service__description {
+  color: #ccc; 
+}
+
+.footer {
+  background-image: url(https://t4.ftcdn.net/jpg/03/50/82/73/360_F_350827357_HIDMq93QzMfF3V75XYs9x7WyD59IHrhO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 3px solid #d4af37; 
+}
+
+.footer__text {
+  font-size: 1.1rem;
+  color: #ccc; 
+}
+
+.footer__social {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.social__link {
+  color: #dadada;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.social__link:hover {
+  color: #fff; 
+  text-shadow: 1px 1px 10px #f6cd46;;
+}
+.contact__form {
+  background-image: url(https://i.pinimg.com/originals/c7/43/7c/c7437c4df477068410ce0447bd1d5da7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  font-size: 26px;
+  display: block;
+  color: white; 
+  text-shadow: 1px 1px 10px #000000;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #333; 
+  color: white; 
+  border: 1px solid #d4af37;
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  border-color: #b5942e;
+  outline: none;
+}
+
+.form__button {
+  font-family: 'Harry Potter', sans-serif;
+  background-color: #d4af37;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px; 
+}
+
+.form__button:hover {
+  background-color: #b5942e; 
+}
+
+.section--news {
+  background-color: #3c3c3c; 
+  padding: 70px 20px;
+  color: white;
+}
+
+.news__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.news__item {
+  background-color: #444; 
+  border: 2px solid #d4af37; 
+  padding: 70px 20px;
+  border-radius: 5px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.news__item:hover {
+  transform: scale(1.05); 
+  border: 2px solid #f6cd46;
+  box-shadow: 1px 1px 10px #f6cd46;
+}
+
+.news__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.news__content {
+  color: #ccc; 
+  display: flex;
+  flex-direction: column;
+}
+
+.news__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #d4af37; 
+  margin-bottom: 10px;
+}
+
+.news__date {
+  font-size: 1rem;
+  color: #999; 
+  margin-bottom: 10px;
+}
+
+.news__summary {
+  font-size: 1.1rem;
+  color: #ccc; 
+  margin-bottom: 15px;
+}
